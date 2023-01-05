@@ -14,10 +14,10 @@
         <div class="container">
             <a class="logo" href="#">Creative<span>Crew</span></a>
 
-            <img id="mobile-cta" class="mobile-menu" src="/menu-icon.jpg" alt="">
+            <img id="mobile-cta" class="mobile-menu" src="/menu-icon.jpg" height="20" width="30" alt="">
 
             <nav>
-                <img id="mobile-exit" class="mobile-menu-exit" src="/exit.jpg" alt="close navigation">
+                <img id="mobile-exit" class="mobile-menu-exit" src="/exit.jpg" height="30" width="30" alt="close navigation">
 
                 <ul class="primary-nav">
                     <li class="current"><a href="#">Home</a></li>
@@ -42,12 +42,12 @@
                 <div class="hero-cta">
                     <a href="#" class="primary-cta">Try For Free</a>
                     <a href="#" class="watch-video-cta">
-                        <img src="/video_icon.jpg" alt="watch a video">Watch a video
+                        <img src="/video_icon.jpg"  height="20"  width="30"  alt="watch a video">Watch a video
                     </a>
                 </div>
             </div>
 
-            <img src="/illustrator.jpg" class="hero-img" alt="illustration">
+            <img src="/illustrator.jpg" class="hero-img" height="200" width="300"alt="illustration">
         </div>
     </section>
 
@@ -62,7 +62,7 @@
                 <li>Other Awesome Features</li>
             </ul>
 
-            <img src="/computer.jpeg" alt="Computer">
+            <img src="/computer.jpeg" height="200" width="350" alt="Computer"> 
         </div>
     </section>
 
@@ -70,21 +70,21 @@
         <div class="container">
             <ul>
                 <li>
-                    <img src="/computer.jpeg" alt="Computer">
+                    <img src="/computer.jpeg" height="200" width="300" alt="Computer">
 
                     <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, earum voluptatibus! Incidunt quam dolore placeat asperiores nihil magnam.
                     </blockquote>
                     <cite>- Crewtive Crew</cite>
                 </li>
                 <li>
-                    <img src="/computer.jpeg" alt="Computer">
+                    <img src="/computer.jpeg" height="200" width="300" alt="Computer">
 
                     <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, earum voluptatibus! Incidunt quam dolore placeat asperiores nihil magnam.
                     </blockquote>
                     <cite>- Crewtive Crew</cite>
                 </li>
                 <li>
-                    <img src="/computer.jpeg" alt="Computer">
+                    <img src="/computer.jpeg" height="200" width="300" alt="Computer">
 
                     <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, earum voluptatibus! Incidunt quam dolore placeat asperiores nihil magnam.
                     </blockquote>
@@ -121,5 +121,20 @@
 </section>
 
 
+
+    <script>
+
+        const mobileBtn= document.getElementById('mobile-cta');
+            nav= document.querySelector('nav');
+            mobileBtnExit=document.getElementById('mobile-exit');
+
+            mobileBtn.addEventListener('click', () =>{
+                nav.classlist.add('menu-btn');
+            })
+
+            mobileBtn.addEventListener('click', () =>{
+                nav.classlist.remove('menu-btn');
+            })
+    </script>
 </body>
 </html>

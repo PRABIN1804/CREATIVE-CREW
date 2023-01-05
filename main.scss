@@ -345,7 +345,10 @@ nav{
     right: 0;
     width: 350px;
     bottom: -2em;
-
+   }
+   .testimonials-section ul {
+    display: flex;
+    
     li{
         margin: 0 1em;
     }

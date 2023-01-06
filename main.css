@@ -1,4 +1,4 @@
-/* import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
   --primary-color: #007AF3;
 }
@@ -78,6 +78,7 @@ section {
 }
 .left-col .watch-video-cta img {
   margin-right: 0.5em;
+  width: 3rem;
 }
 
 .hero-img {
@@ -108,7 +109,7 @@ ul.features-list li:before {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("../bullet.png");
+  background-image: url("/bullet.png");
   background-size: contain;
   margin-right: 0.5em;
 }
@@ -117,11 +118,11 @@ ul.features-list li:before {
   display: none;
 }
 
-.testimonals-section {
+.testimonials-section {
   background: var(--primary-color);
   color: white;
 }
-.testimonals li {
+.testimonials-section li {
   background: #006BD6;
   text-align: center;
   padding: 2em 1em;
@@ -214,13 +215,11 @@ nav li a:hover {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
-
   .navbar .container {
     display: grid;
     grid-template-columns: 180px auto;
     justify-content: unset;
   }
-
   .navbar nav {
     display: flex;
     justify-content: space-between;
@@ -261,11 +260,9 @@ nav li a:hover {
     width: 1080px;
     margin: 0 auto;
   }
-
   section {
-    padding: 10em 4em;
+    padding: 10em 4em 3em;
   }
-
   .hero .container {
     display: flex;
     justify-content: space-between;
@@ -278,20 +275,16 @@ nav li a:hover {
     font-size: 3em;
     width: 90%;
   }
-
   .hero-img {
     width: 30%;
     margin-right: 8em;
   }
-
   .hero-cta {
     display: flex;
   }
-
   .primary-cta {
     margin-right: 1em;
   }
-
   ul.features-list {
     display: block;
     margin-left: 5em;
@@ -303,11 +296,9 @@ nav li a:hover {
     width: 30px;
     height: 30px;
   }
-
   .features-section {
     position: relative;
   }
-
   .features-section img {
     display: block;
     position: absolute;
@@ -315,21 +306,18 @@ nav li a:hover {
     width: 350px;
     bottom: -2em;
   }
-
   .testimonials-section ul {
     display: flex;
   }
   .testimonials-section ul li {
     margin: 0 1em;
   }
-
   .contact-section {
     position: relative;
   }
   .contact-section .container {
     display: flex;
   }
-
   .contact-right {
     position: absolute;
     right: 0;
@@ -356,8 +344,8 @@ nav li a:hover {
     position: absolute;
     width: 200px;
     height: 20em;
-    background: url("../dots.png") no-repeat;
+    background: url("/dots.png") no-repeat;
     left: 4.5em;
     top: 2em;
   }
-}
+}/*# sourceMappingURL=main.css.map */

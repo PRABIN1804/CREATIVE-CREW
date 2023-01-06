@@ -117,11 +117,11 @@ ul.features-list li:before {
   display: none;
 }
 
-.testimonials-section {
+.testimonals-section {
   background: var(--primary-color);
   color: white;
 }
-.testimonials-section li {
+.testimonals li {
   background: #006BD6;
   text-align: center;
   padding: 2em 1em;

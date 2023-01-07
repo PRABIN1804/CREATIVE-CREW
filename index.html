@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS</title>
     <link rel="stylesheet" href="/main.css">
-    <script src="/"></script>
+     <script defer src="/main.js"></script>
 </head>
 
 <body>
     <div class="navbar">
         <div class="container">
-            <a class="logo" href="#">Remember<span>That</span></a>
+            <a class="logo" href="#">Creative<span>Crew</span></a>
 
-            <img id="mobile-cta" class="mobile-menu" src="/menu-icon.jpg"  alt="Open Navigation">
+            <img id="mobile-cta" class="mobile-menu" src="/menu-icon.jpg" height="20" width="50" alt="Open Navigation">
 
             <nav>
-                <img id="mobile-exit" class="mobile-menu-exit" src="/exit.jpg" alt="Close Navigation">
+                <img id="mobile-exit" class="mobile-menu-exit" src="/exit.jpg" height="30" width="55"  alt="Close Navigation">
 
                 <ul class="primary-nav">
                     <li class="current"><a href="#">Home</a></li>
@@ -38,7 +38,7 @@
         <div class="container">
             <div class="left-col">
                 <p class="subhead">It's Nitty &amp; Gritty</p>
-                <h1>A Task App That Doesn't Stink</h1>
+                <h1>Welcome To Creative Crew World</h1>
 
                 <div class="hero-cta">
                     <a href="#" class="primary-cta">Try for free</a>
@@ -75,21 +75,21 @@
 
                     <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt ut labore et dolore"</blockquote>
-                    <cite>- Jane Doe</cite>
+                    <cite>- Creative Crew</cite>
                 </li>
                 <li>
                     <img src="/computer.jpeg" alt="Person">
 
                     <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt ut labore et dolore"</blockquote>
-                    <cite>- Jane Doe</cite>
+                    <cite>- Creative Crew</cite>
                 </li>
                 <li>
                     <img src="/computer.jpeg" alt="Person">
 
                     <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt ut labore et dolore"</blockquote>
-                    <cite>- Jane Doe</cite>
+                    <cite>- Creative Crew</cite>
                 </li>
             </ul>
         </div>
@@ -103,6 +103,9 @@
                 <form action="">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
@@ -118,24 +121,7 @@
             </div>
 
         </div>
-    </section>
-
-    <!-- JAVASCRIPT PART -->
-
-    <script>
-
-        const mobileBtn = document.getElementById('mobile-cta');
-        nav = document.querySelector('nav');
-        mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-            nav.classlist.add('menu-btn');
-        })
-
-        mobileBtn.addEventListener('click', () => {
-            nav.classlist.remove('menu-btn');
-        })
-    </script>
+    </section>    
+    
 </body>
-
 </html>

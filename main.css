@@ -4,7 +4,8 @@
 }
 
 body {
-  background: #F2F2F2;
+  /* background: #F2F2F2; */
+  /* background: black; */
   margin: 0;
   font-family: "Poppins";
 }
@@ -16,7 +17,7 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color:black;
   font-size: 1.2em;
 }
 .navbar .logo span {
@@ -58,16 +59,17 @@ section {
   letter-spacing: 0.3em;
 }
 .left-col h1 {
-  font-size: 2.5em;
+  font-size: 15em;
   line-height: 1.3em;
   margin-top: 0.2em;
 }
 .left-col .primary-cta {
   background: var(--primary-color);
+  /* background-image:url(../biryani.jpg) */
   color: white;
   text-decoration: none;
   padding: 0.6em 1.3em;
-  font-size: 1.4em;
+  font-size: 2.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
@@ -82,8 +84,8 @@ section {
 }
 
 .hero-img {
-  width: 70%;
-  margin-top: 3em;
+  width: 180%;
+  margin-top: 0em;
 }
 
 section.features-section {
@@ -272,7 +274,7 @@ nav li a:hover {
     margin: 3em 3em 0 5em;
   }
   .hero .container .left-col h1 {
-    font-size: 3em;
+    font-size: 4em;
     width: 90%;
   }
   .hero-img {
@@ -283,7 +285,7 @@ nav li a:hover {
     display: flex;
   }
   .primary-cta {
-    margin-right: 1em;
+    margin-right: 0.5em;
   }
   ul.features-list {
     display: block;
@@ -344,8 +346,14 @@ nav li a:hover {
     position: absolute;
     width: 200px;
     height: 20em;
-    background: url("/dots.png") no-repeat;
+    background: url("../dots.png") no-repeat;
     left: 4.5em;
     top: 2em;
+  }
+
+  footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
   }
 }/*# sourceMappingURL=main.css.map */
